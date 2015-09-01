@@ -13,6 +13,7 @@
 		<a class="navbar-brand" href="">Planificacion De Clases</a>
 	</div>
 
+
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse navbar-ex1-collapse">
 		<ul class="nav navbar-nav navbar-right">
