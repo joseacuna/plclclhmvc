@@ -8,7 +8,7 @@
 
 namespace App\Modules\Principal\Controllers;
 
-use View;
+use View,Response;
 
 
 class PrincipalController extends \BaseController{
@@ -16,10 +16,12 @@ class PrincipalController extends \BaseController{
     public function getHome(){
 
 
-        return View::make('principal::index');
+//        return View::make('principal::index');
+        return Response::view('principal::index');
 
 
 
     }
+
 
 }
