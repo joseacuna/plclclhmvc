@@ -17,11 +17,16 @@ class PrincipalController extends \BaseController{
 
 
 //        return View::make('principal::index');
-        return Response::view('principal::index');
+        $vista=View::make('principal::appbar');
+        $vista->nest('menu','principal::menu');
+
+        return $vista;
 
 
 
     }
+
+
 
 
 }

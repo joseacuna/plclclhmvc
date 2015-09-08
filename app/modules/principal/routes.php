@@ -12,3 +12,4 @@
 */
 
 Route::get('/home', array('as'=>'home','uses'=>'App\Modules\Principal\Controllers\PrincipalController@getHome'));
+Route::get('/menu',array('as'=>'menu','uses'=>'App\Modules\Principal\Controllers\PrincipalController@getMenu'));
