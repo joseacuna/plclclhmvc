@@ -7,14 +7,14 @@
  */
 
 namespace App\Modules\Login\Controllers;
-
-use View,Auth,Input,Response,Redirect;
+use Docente;
+use Auth,Input,Response,Redirect;
 
 class LoginController extends \BaseController{
    //protected $layout='principal::_layout.master';
     public static function getLogin(){
         if(\Auth::check()){
-            return \Redirect::to('/');
+            return Redirect::to('/');
         }
 
         //return View::make('login::formlogin');
