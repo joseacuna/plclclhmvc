@@ -17,7 +17,7 @@ class LoginController extends \BaseController{
             return Redirect::to('/');
         }
 
-        //return View::make('login::formlogin');
+        //return View::make('login::form');
         return Response::view('login::formlogin');
     }
 

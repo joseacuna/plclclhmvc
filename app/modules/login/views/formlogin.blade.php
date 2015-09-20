@@ -2,7 +2,7 @@
 @extends('principal::_layout.master')
 
 @section('contenido')
-    <div class="login-form">
+    <div class="login-form conteiner">
         {{ Form::open(array('url' => '/', 'method' => 'POST')) }}
         <h1 class="text-light">Iniciar Sesion</h1>
         <hr class="thin">

@@ -26,6 +26,14 @@ class PrincipalController extends \BaseController{
 
     }
 
+    public function getRutas(){
+        $vista=View::make('principal::appbar');
+        $vista->nest('rutas','principal::rutas');
+
+        return $vista;
+        //return View::make('principal::rutas');
+    }
+
 
 
 
